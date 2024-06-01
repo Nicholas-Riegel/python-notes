@@ -116,21 +116,21 @@
 #   if a < b:
 #     print('the first is less than the second')
 
-list0 = []
-for j in range(10):
-  j+=1
-  list0.append(j)
+# list0 = []
+# for j in range(10):
+#   j+=1
+#   list0.append(j)
 
-def monotonic(alist):
-  for i in range(len(alist)):
-    if i+1 in range(len(alist)):
-      if alist[i] < alist[i+1]:
-        print("{} is less than {}".format(alist[i], alist[i+1]))
-        continue
-      else:
-        print("{} is not less than {}.".format(alist[i], alist[i+1]))
-        print('The list is not monotonic.')
-        break
-    print('The list is monotonic.')
+# def monotonic(alist):
+#   for i in range(len(alist)):
+#     if i+1 in range(len(alist)):
+#       if alist[i] < alist[i+1]:
+#         print("{} is less than {}".format(alist[i], alist[i+1]))
+#         continue
+#       else:
+#         print("{} is not less than {}.".format(alist[i], alist[i+1]))
+#         print('The list is not monotonic.')
+#         break
+#     print('The list is monotonic.')
 
-monotonic(list0)
+# monotonic(list0)

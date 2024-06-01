@@ -31,7 +31,7 @@ comment
 
 # Text Type: 	    str
 # Numeric Types: 	int, float, complex
-# Sequence Types: list, tuple, range
+# Sequence Types:   list, tuple, range
 # Mapping Type: 	dict
 # Set Types: 	    set, frozenset
 # Boolean Type: 	bool
@@ -40,14 +40,14 @@ comment
 
 # CASTING
 
-# x = int(1)   # x will be 1
-# y = int(2.8) # y will be 2
-# z = int("3") # z will be 3
+# x = int(1)        # x will be 1
+# y = int(2.8)      # y will be 2
+# z = int("3")      # z will be 3
 
-# x = float(1)     # x will be 1.0
-# y = float(2.8)   # y will be 2.8
-# z = float("3")   # z will be 3.0
-# w = float("4.2") # w will be 4.2
+# x = float(1)      # x will be 1.0
+# y = float(2.8)    # y will be 2.8
+# z = float("3")    # z will be 3.0
+# w = float("4.2")  # w will be 4.2
 
 # STRINGS
 
@@ -62,9 +62,9 @@ comment
 # b = "Hello, World!"
 # print(b[0:4])
 
-# Get the characters from the start to position 5 (not included):
+# Get the characters from the start to position 4 (not included):
 # b = "Hello, World!"
-# print(b[:5])
+# print(b[:4])
 
 # Get the characters from position 2, and all the way to the end:
 # b = "Hello, World!"
@@ -79,10 +79,9 @@ comment
 # print(a.strip()) # returns "Hello, World!" 
 
 # The replace() method replaces a string with another string:
-a = "Hello, World!"
-print(a.replace("H", "J"))
-print(a)
-
+# a = "Hello, World!"
+# print(a.replace("H", "J"))
+# print(a)
 
 # The split() method splits the string into substrings if it finds instances of the separator:
 # a = "Hello, World!"
